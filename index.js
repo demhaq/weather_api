@@ -17,7 +17,7 @@ app.get('/api',(request,response) => {
     database.find({}).sort({ timestamp: -1 }).exec(function (err, data) {
   // docs is [doc1, doc3, doc2]
    if(err){
-    		respond.end();
+    		response.end();
     		return;
     	}
         response.json(data);
