@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<title>WeatherAPI</title>
+</head>
+<body>
+ <div class="container mt-4">
+ 	<h1 class="mb-4 ">The weather Here</h1>
+	<div>
+		<a  href="/">Checking</a> | <a href="/logs">View Checking</a>      
+    </div>
+    
+	<div class="row mb-4  text-dark">
+		<div class="col-7 list-group-item bg-success mt-4">
+			  <p>
+			  		The weather here at <span id="latitude"></span>&deg,<span id="longitude"></span>&deg is
+			   <span id="summary"></span> with the temperature of
+			 	<span id="temperature"></span>&deg C .The concentration of particulate matter (<span id="aq_parameter"></span>) is <span id="aq_value"></span> <span id="aq_unit"></span> last read on <span id="aq_date"></span>.
+			 </p>
+		 </div>    
+  </div>	
+</div>
+	
+
+ 
+   
+
+	<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Get Data from Database</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet"/>
+	<link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+      crossorigin=""
+    ></script>
+    <style>
+      #checkinMap {
+        height: 240px;
+        margin: 8px 0px;
+      }
+    </style>
+</head>
+<nav class="navbar navbar-light bg-dark">
+  
+</nav>
+<body>
+	<div class="container mt-4">
+		<h1 class="mb-4 ">The weather Here</h1>
+		<div>
+		   <a  href="/">Checking</a> | <a href="/logs">View Checking</a>      
+        </div>
+	</div>
+	<div id="checkinMap"></div>
+	<script src="logs.js"></script>
+</body>
+</html>
